@@ -24,8 +24,6 @@ NeoBundle 'Raimondi/delimitMate'
 NeoBundle 'SirVer/ultisnips'
 NeoBundle 'honza/vim-snippets'
 NeoBundle 'Shougo/neocomplete.vim'
-NeoBundle 'flazz/vim-colorschemes'
-NeoBundle 'molokai'
 NeoBundle 'Shougo/vimproc.vim', {
 \ 'build' : {
 \   'windows' : 'tools\\update-dll-mingw',
@@ -41,6 +39,7 @@ NeoBundle 'tpope/vim-sleuth'
 NeoBundle 'rust-lang/rust.vim'
 NeoBundle 'auctex.vim'
 NeoBundle 'LaTeX-Box-Team/LaTeX-Box'
+NeoBundle 'chriskempson/base16-vim'
 call neobundle#end()
 
 filetype plugin indent on

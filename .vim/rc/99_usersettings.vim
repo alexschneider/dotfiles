@@ -3,7 +3,8 @@ set ts=2
 set sw=2
 set et
 
-colorscheme molokai
+let base16colorspace=256
+colorscheme base16-monokai
 set background=dark
 
 " Trim trailing whitespace on save
