@@ -40,6 +40,7 @@ NeoBundle 'rust-lang/rust.vim'
 NeoBundle 'auctex.vim'
 NeoBundle 'LaTeX-Box-Team/LaTeX-Box'
 NeoBundle 'chriskempson/base16-vim'
+NeoBundle 'dart-lang/dart-vim-plugin'
 call neobundle#end()
 
 filetype plugin indent on

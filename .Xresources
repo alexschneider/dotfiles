@@ -56,8 +56,10 @@ URxvt.keysym.M-s:           perl:keyboard-select:search
 URxvt.colorUL: #4682B4
 URxvt.matcher.button: 1
 
+URxvt*saveLines: 12000
 
 URxvt.scrollstyle: plain
+URxvt*scrollBar_right: true
 
 ! do not scroll with output
 URxvt*scrollTtyOutput: false
@@ -74,6 +76,10 @@ URxvt*font:	xft:Inconsolata\\-g for Powerline:style=Medium:size=12
 
 URxvt.keysym.C-equal: perl:font-size:incsave
 URxvt.keysym.C-minus: perl:font-size:decsave
+
+URxvt.iso14755: False
+URxvt.keysym.Shift-Control-C: perl:clipboard:copy
+URxvt.keysym.Shift-Control-V: perl:clipboard:paste
 
 ! Compile xft: Attempt to find a visual with the given bit depth; option
 ! URxvt*depth: bitdepth
