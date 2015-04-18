@@ -72,7 +72,7 @@ URxvt*scrollTtyKeypress: true
 
 URxvt.secondaryScreen: 1
 URxvt.secondaryScroll: 0
-URxvt*font:	xft:Inconsolata\\-g for Powerline:style=Medium:size=12
+URxvt*font:	xft:Inconsolata\\-g for Powerline:style=Medium:size=12,xft:Symbol
 
 URxvt.keysym.C-equal: perl:font-size:incsave
 URxvt.keysym.C-minus: perl:font-size:decsave
@@ -80,6 +80,9 @@ URxvt.keysym.C-minus: perl:font-size:decsave
 URxvt.iso14755: False
 URxvt.keysym.Shift-Control-C: perl:clipboard:copy
 URxvt.keysym.Shift-Control-V: perl:clipboard:paste
+
+URxvt*visualBell:  false
+URxvt.urgentOnBell: true
 
 ! Compile xft: Attempt to find a visual with the given bit depth; option
 ! URxvt*depth: bitdepth
