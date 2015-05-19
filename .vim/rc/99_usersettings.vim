@@ -29,5 +29,8 @@ augroup END
 
 set textwidth=80
 " Provide a visual indication of the maximum line width
-
 set colorcolumn=+1
+map <ESC>[Od <C-Left>
+map <ESC>[Oc <C-Right>
+map! <ESC>[Od <C-Left>
+map! <ESC>[Oc <C-Right>

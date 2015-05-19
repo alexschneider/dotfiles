@@ -72,7 +72,7 @@ URxvt*scrollTtyKeypress: true
 
 URxvt.secondaryScreen: 1
 URxvt.secondaryScroll: 0
-URxvt*font:	xft:Inconsolata\\-g for Powerline:style=Medium:size=12,xft:Symbol
+URxvt*font:	xft:Inconsolata\\-g for Powerline:style=Medium:size=12
 
 URxvt.keysym.C-equal: perl:font-size:incsave
 URxvt.keysym.C-minus: perl:font-size:decsave
